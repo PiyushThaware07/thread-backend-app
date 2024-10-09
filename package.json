@@ -1,0 +1,23 @@
+{
+  "name": "thread",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "author": "piyush",
+  "license": "ISC",
+  "description": "Thread application",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.6.3"
+  }
+}
